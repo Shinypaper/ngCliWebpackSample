@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
+import { getBrand } from '../utils';
 
-const fileName = 'test';
+const brand = getBrand['brand'] || 'test';
 
 @Component({
   selector: 'app-foo-component',
   templateUrl: './foo.html',
-  styleUrls: [`../theming/test/${fileName}.scss`]
+  styleUrls: [`../theming/test/${brand}.scss`]
 })
 
 export class FooComponent {
