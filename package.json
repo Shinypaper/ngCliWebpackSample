@@ -10,6 +10,9 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
+  "pre-push": [
+    "test"
+  ],
   "private": true,
   "dependencies": {
     "@angular/animations": "^4.0.0",
