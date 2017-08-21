@@ -11,7 +11,7 @@
     "e2e": "ng e2e"
   },
   "pre-push": [
-    "test"
+    "npm test"
   ],
   "private": true,
   "dependencies": {
@@ -38,6 +38,7 @@
     "angular2-template-loader": "^0.6.2",
     "codelyzer": "~3.0.1",
     "electron": "^1.6.11",
+    "husky": "^0.14.3",
     "jasmine-core": "~2.6.2",
     "jasmine-spec-reporter": "~4.1.0",
     "karma": "~1.7.0",
