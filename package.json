@@ -8,11 +8,9 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "prepush": "npm test"
   },
-  "pre-push": [
-    "npm test"
-  ],
   "private": true,
   "dependencies": {
     "@angular/animations": "^4.0.0",
